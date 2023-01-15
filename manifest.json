@@ -1,0 +1,19 @@
+{
+  "name": "Удобное представление файлов VK",
+  "description": "Более удобный интерфейс прикрепления файла/гифки в VK",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "content_scripts": [{
+    "matches": ["https://vk.com/*"],
+    "exclude_matches": ["https://vk.com/docs"],
+    "css": ["main.css"]
+  },
+    {"matches": ["https://vk.com/docs"],
+    "css": ["docs.css"]}
+  ]
+}
