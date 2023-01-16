@@ -20,13 +20,13 @@
     margin: 0;
 }
 
-.docs_item_thumb {
+.docs_item_thumb {      /*контейнер картинки*/
     max-height: 60px;
     height: 60px !important;
     width: 60px !important;
-    margin: 0 15px 0 0;
+    margin: 0 8px 0 7px;
 }
-.docs_item_thumb_wrap {     /*контейнер картинки*/
+.docs_item_thumb_wrap {
     height: 60px;
 }
 .docs_item_thumb_img {
@@ -38,7 +38,11 @@
     display: none;
 }
 
-/*СТИЛИ ДЛЯ СТРАНИЦЫ ФАЙЛОВ*/
+.docs_item_icon {
+    margin: 2px 8px 2px 7px !important;
+}
+
+    /*СТИЛИ ДЛЯ СТРАНИЦЫ ФАЙЛОВ*/
 
 #docs_list{
     display: flex;
