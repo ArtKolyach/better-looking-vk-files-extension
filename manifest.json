@@ -8,12 +8,10 @@
     "48": "images/icon48.png",
     "128": "images/icon128.png"
   },
-  "content_scripts": [{
-    "matches": ["https://vk.com/*"],
-    "exclude_matches": ["https://vk.com/docs"],
-    "css": ["main.css"]
-  },
-    {"matches": ["https://vk.com/docs"],
-    "css": ["docs.css"]}
-  ]
+  "content_scripts": [
+    {
+      "matches": ["https://vk.com/*"],
+      "css": ["main.css"]
+    }
+    ]
 }
